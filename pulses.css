@@ -1,0 +1,54 @@
+.containercart2{
+    display: grid;
+    background-color: azure;
+    margin-top: 23px;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 60px;
+}
+
+.cart5{
+    display: flex;
+    margin: 13px;
+    padding-top: 40px;
+    border: 3px solid white;
+    height: 325px;
+    width: 270px;
+    flex-direction: column;
+    background-color: white;
+}
+
+.cart5 img {
+    display: flex;
+    height: 184px;
+    width: 184px;
+    margin-left: 30px;
+    
+}
+
+.addcart {
+    border: 2px solid green;
+    height: 30px;
+    background-color: green;
+    margin-top: 13px;
+}
+
+.add {
+    color: white;
+    text-align: center;
+}
+.show{
+    display: flex;
+    justify-content: center;
+}
+.show button{
+    color: white;
+    background-color: green;
+    border: none;
+    height: 33px;
+    width: 90px;
+    text-align: center;
+    margin-top: 19px
+}

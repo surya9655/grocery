@@ -1,0 +1,890 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KVS STORE</title>
+    <link rel="stylesheet" href="/store.css" class="rel">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" class="rel">
+    <style>
+
+    </style>
+</head>
+
+<body>
+
+    <div class="navbar">
+        <img src="/logo.png" alt="Logo" class="logo">
+        <div class="search-container">
+            <input type="text" placeholder="Search products..." id="searchbar" class="search-input">
+            <button class="search-button" id="glass">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+        </div>
+        <div class="navbar-icons">
+            <i class="fa-solid fa-cart-shopping icon" id="cart"></i>
+            <div class="mycart">My cart</div>
+            <div class="rupees" id="cart-total">(₹0.00)</div>
+        </div>
+
+        <div class="homepage">
+            <div class="login">Login/Signup</div>
+            <div class="feedback">Feedback</div>
+            <div class="contactus">Contact Us</div>
+        </div>
+    </div>
+
+
+    <div class="background">
+        <div class="background image">
+            <div class="frontpage">
+                <div class="grains">GRAINS</div>
+                <div class="shopnow">Shop Now</div>
+                <img src="/playstore.png" id="play">
+
+            </div>
+            <div class="image1"></div>
+        </div>
+    </div>
+
+    <div class="location">
+        <img src="/delivery.jpeg" alt="">
+    </div>
+
+    <div class="productcategory">
+        <div class="curated">Curated For You</div>
+        <div class="productcategory1">
+            <div class="cart1" data-category="instant">
+                <img src="/instant.jpg" alt="Instant Products">
+            </div>
+            <div class="cart1" data-category="papads">
+                <img src="/papads.jpg" alt="Papads">
+            </div>
+            <div class="cart1" data-category="rice">
+                <img src="/rice.jpg" alt="Rice">
+            </div>
+            <div class="cart1" data-category="babyfood">
+                <img src="/babyfood.jpg" alt="Baby Food">
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="containercart">
+        <div class="featureproduct">Shop By Category</div>
+        <div class="product d-flex">
+            <div class="cart2" data-category="pulses">
+                <img src="/pulses.jpg" alt="Pulses">
+                <div class="cartname">Pulses</div>
+            </div>
+            <div class="cart2" data-category="oils">
+                <img src="/oils.jpg" alt="Oils">
+                <div class="cartname">Oils</div>
+            </div>
+            <div class="cart2" data-category="beverages">
+                <img src="beverage.jpg" alt="Beverages">
+                <div class="cartname">Beverages</div>
+            </div>
+            <div class="cart2" data-category="cleaning">
+                <img src="cleaning.jpg" alt="Cleaning">
+                <div class="cartname">Cleaning</div>
+            </div>
+            <div class="cart2" data-category="babycare">
+                <img src="babycare.jpg" alt="BabyCare">
+                <div class="cartname">BabyCare</div>
+            </div>
+            <div class="cart2" data-category="spices">
+                <img src="/spices.jpg" alt="Spices">
+                <div class="cartname">Spices</div>
+            </div>
+            <div class="cart2" data-category="oralcare">
+                <img src="/oralcare11.jpg" alt="OralCare">
+                <div class="cartname">OralCare</div>
+            </div>
+            <div class="cart2" data-category="snacks">
+                <img src="/snacks.jpg" alt="Snacks">
+                <div class="cartname">Snacks</div>
+            </div>
+            <div class="cart2" data-category="skincare">
+                <img src="/skincare.jpg" alt="Skincare">
+                <div class="cartname">Skincare</div>
+            </div>
+            <div class="cart2" data-category="easycooks">
+                <img src="/easycook.jpg" alt="EasyCooks">
+                <div class="cartname">EasyCooks</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="backgroundimage">
+        <img src="bg.png" alt="">
+    </div>
+
+    <div class="brand">
+        <div class="brands">Brand Yor Love</div>
+        <div class="brandcategory">
+            <div class="cart3" data-brand="aachi">
+                <img src="/aachi.jpg" alt="Aachi">
+            </div>
+            <div class="cart3" data-brand="aashirvad">
+                <img src="/aashirvad.jpg" alt="Aashirvad">
+            </div>
+            <div class="cart3" data-brand="surfexcel">
+                <img src="/surfexcel.jpg" alt="Surf Excel">
+            </div>
+            <div class="cart3" data-brand="bru">
+                <img src="/bru.jpg" alt="Bru">
+            </div>
+            <div class="cart3" data-brand="parachute">
+                <img src="/parachute.jpg" alt="Parachute">
+            </div>
+        </div>
+        <div class="containercart1">
+            <div>
+                <div class="featureproduct1">Quench Your Thirst</div>
+            </div>
+
+            <div class="product d-flex">
+                <div class="cart4">
+                    <img src="/maaza.jpg" alt="Maaza Original Mango Drink">
+                    <div class="cartname">Maaza Original Mango Drink</div>
+                    <div class="rupees">
+                        <select class="price-select" data-product="Maaza Original Mango Drink">
+                            <option value="45" data-size="1.2ltr">1.2ltr - ₹45</option>
+                            <option value="20" data-size="250ml">250ml - ₹20</option>
+                            <option value="10" data-size="125ml">125ml - ₹10</option>
+                        </select>
+                    </div>
+                    <div class="addcart">
+                        <div class="add" data-product="Maaza Original Mango Drink">ADD TO CART</div>
+                    </div>
+                </div>
+
+                <div class="cart4">
+                    <img src="/vennila.jpg" alt="Sunfesat Vanilla Milk Shake">
+                    <div class="cartname">Sunfesat Vanilla Milk Shake</div>
+                    <div class="rupees">
+                        <select class="price-select" data-product="Sunfesat Vanilla Milk Shake">
+                            <option value="140" data-size="200ml">200ml - ₹140</option>
+                        </select>
+                    </div>
+                    <div class="addcart">
+                        <div class="add" data-product="Sunfesat Vanilla Milk Shake">ADD TO CART</div>
+                    </div>
+                </div>
+
+                <div class="cart4">
+                    <img src="/pulpy orange" alt="Minute Maid Pulpy Orange">
+                    <div class="cartname">Minute Maid Pulpy Orange</div>
+                    <div class="rupees">
+                        <select class="price-select" data-product="Minute Maid Pulpy Orange">
+                            <option value="160" data-size="1ltr">1ltr - ₹160</option>
+                            <option value="100" data-size="500ml">500ml - ₹100</option>
+                            <option value="60" data-size="250ml">250ml - ₹60</option>
+                        </select>
+                    </div>
+                    <div class="addcart">
+                        <div class="add" data-product="Minute Maid Pulpy Orange">ADD TO CART</div>
+                    </div>
+                </div>
+
+                <div class="cart4">
+                    <img src="/sprite.jpg" alt="Sprite Drink">
+                    <div class="cartname">Sprite Drink</div>
+                    <div class="rupees">
+                        <select class="price-select" data-product="Sprite Drink">
+                            <option value="100" data-size="1ltr">1ltr - ₹100</option>
+                            <option value="60" data-size="500ml">500ml - ₹60</option>
+                            <option value="30" data-size="250ml">250ml - ₹30</option>
+                        </select>
+                    </div>
+                    <div class="addcart">
+                        <div class="add" data-product="Sprite Drink">ADD TO CART</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="brand">
+            <div class="brands">Your Daily Essential</div>
+            <div class="categorylist1">
+                <a href="/spices.html">Spices</a>
+                <a href="/pulses.html">Pulses</a>
+              <a href="/chocolate.html">Chocolate</a>
+                 <a href="">Oil&Ghee</a>
+                 <a href="">Fabric Care</a>
+                 <a href="">Disposables</a>
+                 <a href="">Hair Care</a>
+                 <a href="">Skin Care</a>
+         </div>
+
+            <div class="containercart2">
+                <div class="product ">
+                    <!-- Products -->
+                    <div class="cart5">
+                        <img src="/munch" alt="Nestle Munch">
+                        <div class="cartname">Nestle Munch</div>
+                        <div class="rupees">
+                            <select class="price-select" data-product="Nestle Munch">
+                                <option value="20" data-size="10gram">10gram - ₹20</option>
+                                <option value="35" data-size="23gram">23gram - ₹35</option>
+                                <option value="50" data-size="45gram">45gram - ₹50</option>
+                            </select>
+                        </div>
+                        <div class="addcart">
+                            <div class="add" data-product="Nestle Munch">ADD TO CART</div>
+                        </div>
+                    </div>
+
+                    <div class="cart5">
+                        <img src="/dairy" alt="Cadbury Dairy Milk Chocolate">
+                        <div class="cartname">Cadbury Dairy Milk Chocolate</div>
+                        <div class="rupees">
+                            <select class="price-select" data-product="Cadbury Dairy Milk Chocolate">
+                                <option value="55" data-size="13.2gm">13.2gm - ₹55</option>
+                            </select>
+                        </div>
+                        <div class="addcart">
+                            <div class="add" data-product="Cadbury Dairy Milk Chocolate">ADD TO CART</div>
+                        </div>
+                    </div>
+
+                    <div class="cart5">
+                        <img src="/fivestar" alt="Cadbury 5 Star Chocolate">
+                        <div class="cartname">Cadbury 5 Star Chocolate</div>
+                        <div class="rupees">
+                            <select class="price-select" data-product="Cadbury 5 Star Chocolate">
+                                <option value="20" data-size="10gram">10gram - ₹20</option>
+                                <option value="35" data-size="23gram">23gram - ₹35</option>
+                                <option value="50" data-size="45gram">45gram - ₹50</option>
+                            </select>
+                        </div>
+                        <div class="addcart">
+                            <div class="add" data-product="Cadbury 5 Star Chocolate">ADD TO CART</div>
+                        </div>
+                    </div>
+
+                    <div class="cart5">
+                        <img src="/maggi.jpg" alt="Maggi Veg Masala Magic">
+                        <div class="cartname">Maggi Veg Masala Magic</div>
+                        <div class="rupees">
+                            <select class="price-select" data-product="Maggi Veg Masala Magic">
+                                <option value="10" data-size="6gm">6gm - ₹10</option>
+                                <option value="100" data-size="500ml">500ml - ₹100</option>
+                                <option value="60" data-size="250ml">250ml - ₹60</option>
+                            </select>
+                        </div>
+                        <div class="addcart">
+                            <div class="add" data-product="Maggi Veg Masala Magic">ADD TO CART</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show">
+                    <button>Show All</button>
+                </div>
+            </div>
+
+
+
+            <div class="bg2 container">
+
+                <div class="backgroundpara2">
+                    <div class="bgpara3">As pure as an Angel </div>
+                    <div class="bgpara4"> and as fresh as a blooming flower</div>
+                    <button>Shop Now</button>
+                </div>
+
+                <div class="backgroundimage2">
+                    <img src="/bg2.png" alt="">
+
+
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="brand">
+            <div class="brands">Explore New Categories</div>
+            <div class="categorylist2">
+                <div>Health Drinks</div>
+                <div>Vegetables</div>
+                <div>Bakery Treats</div>
+                <div>Mens Grooming</div>
+                <div>Pooja Utilities</div>
+            </div>
+
+            <div class="containercart3">
+                <div class="product d-flex">
+
+                    <div class="cart6">
+                        <img src="/horlicks.jpg" alt="Horlicks Classic Malt Pouch">
+                        <div class="cartname">Horlicks Classic Malt Pouch</div>
+                        <div class="rupees">
+                            <select class="price-select" data-product="Horlicks Classic Malt Pouch">
+                                <option value="150" data-size="750gram">750gram - ₹150</option>
+                                <option value="100" data-size="500gram">500gram - ₹100</option>
+                                <option value="70" data-size="250gram">250gram - ₹70</option>
+                            </select>
+                        </div>
+                        <div class="addcart">
+                            <div class="add" data-product="Horlicks Classic Malt Pouch">ADD TO CART</div>
+                        </div>
+                    </div>
+
+                    <div class="cart6">
+                        <img src="/horlicks1.jpg" alt="Horlicks Classic Malt Flavour">
+                        <div class="cartname">Horlicks Classic Malt Flavour</div>
+                        <div class="rupees">
+                            <select class="price-select" data-product="Horlicks Classic Malt Flavour">
+                                <option value="200" data-size="200gm">200gm - ₹200</option>
+                            </select>
+                        </div>
+                        <div class="addcart">
+                            <div class="add" data-product="Horlicks Classic Malt Flavour">ADD TO CART</div>
+                        </div>
+                    </div>
+
+                    <div class="cart6">
+                        <img src="/boost.jpg" alt="Boost Pouch 750gm">
+                        <div class="cartname">Boost Pouch 750gm</div>
+                        <div class="rupees">
+                            <select class="price-select" data-product="Boost Pouch 750gm">
+                                <option value="160" data-size="750gm">750gm - ₹160</option>
+                                <option value="120" data-size="500gm">500gm - ₹120</option>
+                                <option value="80" data-size="250gm">250gm - ₹80</option>
+                            </select>
+                        </div>
+                        <div class="addcart">
+                            <div class="add" data-product="Boost Pouch 750gm">ADD TO CART</div>
+                        </div>
+                    </div>
+
+                    <div class="cart6">
+                        <img src="/juniorhorlicks.jpg" alt="Horlicks Junior Vanilla Pouch">
+                        <div class="cartname">Horlicks Junior Vanilla Pouch</div>
+                        <div class="rupees">
+                            <select class="price-select" data-product="Horlicks Junior Vanilla Pouch">
+                                <option value="180" data-size="750gm">750gm - ₹180</option>
+                                <option value="130" data-size="500gm">500gm - ₹130</option>
+                                <option value="80" data-size="250gm">250gm - ₹80</option>
+                            </select>
+                        </div>
+                        <div class="addcart">
+                            <div class="add" data-product="Horlicks Junior Vanilla Pouch">ADD TO CART</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="show">
+                    <button>Show All</button>
+                </div>
+            </div>
+
+
+
+            <div class="brand">
+                <div class="brands">Dairy Delights For You</div>
+
+                <div class="containercart4">
+                    <div class="product d-flex">
+
+                        <div class="cart7">
+                            <img src="/milkymist.jpg" alt="Milky Mist Cooking Butter">
+                            <div class="cartname">Milky Mist Cooking Butter</div>
+                            <div class="rupees">
+                                <select class="price-select" data-product="Milky Mist Cooking Butter">
+                                    <option value="150" data-size="750gram">750gram - ₹150</option>
+                                    <option value="100" data-size="500gram">500gram - ₹100</option>
+                                    <option value="70" data-size="250gram">250gram - ₹70</option>
+                                </select>
+                            </div>
+                             <div class="addcart">
+                                <div class="add" data-product="Milky Mist Cooking Butter">ADD TO CART</div>
+                            </div>
+                        </div>
+
+                        <div class="cart7">
+                            <img src="/milkymist1.png" alt="Milky Mist Tablet Butter Chiplet">
+                            <div class="cartname">Milky Mist Tablet Butter</div>
+                            <div class="rupees">
+                                <select class="price-select" data-product="Milky Mist Tablet Butter Chiplet">
+                                    <option value="200" data-size="200gm">200gm - ₹200</option>
+                                </select>
+                            </div>
+                            <div class="addcart">
+                                <div class="add" data-product="Milky Mist Tablet Butter Chiplet">ADD TO CART</div>
+                            </div>
+                        </div>
+
+                        <div class="cart7">
+                            <img src="/milkymist2.png" alt="Milky Mist Tablet Butter">
+                            <div class="cartname">Milky Mist Tablet Butter</div>
+                            <div class="rupees">
+                                <select class="price-select" data-product="Milky Mist Tablet Butter">
+                                    <option value="160" data-size="750gm">750gm - ₹160</option>
+                                    <option value="120" data-size="500gm">500gm - ₹120</option>
+                                    <option value="80" data-size="250gm">250gm - ₹80</option>
+                                </select>
+                            </div>
+                            <div class="addcart">
+                                <div class="add" data-product="Milky Mist Tablet Butter">ADD TO CART</div>
+                            </div>
+                        </div>
+
+                        <div class="cart7">
+                            <img src="/milkymist4.jpeg" alt="Milky Mist Tablet Salted">
+                            <div class="cartname">Milky Mist Tablet Salted</div>
+                            <div class="rupees">
+                                <select class="price-select" data-product="Milky Mist Tablet Salted">
+                                    <option value="100" data-size="750gm">750gm - ₹100</option>
+                                    <option value="70" data-size="500gm">500gm - ₹70</option>
+                                    <option value="40" data-size="250gm">250gm - ₹40</option>
+                                </select>
+                            </div>
+                            <div class="addcart">
+                                <div class="add" data-product="Milky Mist Tablet Salted">ADD TO CART</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="show">
+                        <button>Show All</button>
+                    </div>
+                </div>
+
+
+
+
+                <div class="footer">
+                    <div class="footerbg">
+                        <div class="footeraddress">
+                            <img src="/logo.png" alt="">
+                            <h1>MART</h1>
+                            <h4>Kamuthi main road</h4>
+                            <h4>Veeracholan</h4>
+                            <h4>Tamilnadu-626612</h4>
+                        </div>
+                        <div class="footercontact">
+                            <h3>Need Help</h3>
+                            <p><i class="fa-solid fa-headphones"></i> 9655931689</p>
+                            <p><i class="fa-regular fa-envelope"></i> kvsstore@gmail.com</p>
+                        </div>
+                        <div class="footercategory">
+                            <h4>Categories</h4>
+                            <p>Fruits & Vegetables |Staples |Snacks & Namkeens |Beverages |Chilled & Dairy Foods |</p>
+                            <p>Ready To Cook |Ready To Eat |Baby Care |Household Essentials |Cleaning Needs |</p>
+                            <p>Feminine Care |Health Care |Personal Care |Stationaries |Skin Care |Oral Care |</p>
+                            <p>Men's Grooming |Creams & Lotions |Crockeries</p>
+                            <h4>Links</h4>
+                            <p>Home Deals New Arrivals</p>
+                            <h4>Download Our App</h4>
+                            <img src="/playstore.png" alt="">
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+                <script src="/app.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <!-- <div class="containercart1">
+            <div>
+                <div class="featureproduct1">PULSES&SPICES</div>
+                <div class="line"></div>
+            </div>
+
+            <div class="product d-flex">
+
+                <div class="cart2">
+                    <img src="/sugar.jfif">
+                    <div class="sugar">Sugar</div>
+                    <div class="rupees">
+                        <select id="kilogram">
+                            <option value="1kg">1kg</option>
+                            <option value="500gm">500gm</option>
+                            <option value="250gm">250gm</option>
+                        </select>
+                        <div>₹45</div>
+
+                    </div>
+                    <div class="addcart">
+                        <div class="add">ADD TO CART</div>
+                        <div class="heart">
+                            <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cart2">
+                    <img src="/toordhal.jfif">
+                    <div class="sugar">Toordhal</div>
+                    <div class="rupees">
+                        <select id="kilogram">
+                            <option value="1kg">1kg</option>
+                            <option value="500gm">500gm</option>
+                            <option value="250gm">250gm</option>
+                        </select>
+                        <div>₹190</div>
+
+                    </div>
+                    <div class="addcart">
+                        <div class="add">ADD TO CART</div>
+                        <div class="heart">
+                            <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart2">
+                    <img src="/moondhal.jfif">
+                    <div class="sugar">Moondhal</div>
+                    <div class="rupees">
+                        <select id="kilogram">
+                            <option value="1kg">1kg</option>
+                            <option value="500gm">500gm</option>
+                            <option value="250gm">250gm</option>
+                        </select>
+                        <div>₹140</div>
+
+                    </div>
+                    <div class="addcart">
+                        <div class="add">ADD TO CART</div>
+                        <div class="heart">
+                            <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cart2">
+                    <img src="/uriddhal.jfif">
+                    <div class="sugar">Uriddhal</div>
+                    <div class="rupees">
+                        <select id="kilogram">
+                            <option value="1kg">1kg</option>
+                            <option value="500gm">500gm</option>
+                            <option value="250gm">250gm</option>
+                        </select>
+                        <div>₹160</div>
+
+                    </div>
+                    <div class="addcart">
+                        <div class="add">ADD TO CART</div>
+                        <div class="heart">
+                            <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cart2">
+                    <img src="/gramdhal.jfif">
+                    <div class="sugar">Gramdhal</div>
+                    <div class="rupees">
+                        <select id="kilogram">
+                            <option value="1kg">1kg</option>
+                            <option value="500gm">500gm</option>
+                            <option value="250gm">250gm</option>
+                        </select>
+                        <div>₹100</div>
+
+                    </div>
+                    <div class="addcart">
+                        <div class="add">ADD TO CART</div>
+                        <div class="heart">
+                            <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="product d-flex">
+
+                <div class="cart2">
+                    <img src="/sundal.jpg">
+                    <div class="sugar">sundal</div>
+                    <div class="rupees">
+                        <select id="kilogram">
+                            <option value="1kg">1kg</option>
+                            <option value="500gm">500gm</option>
+                            <option value="250gm">250gm</option>
+                        </select>
+                        <div>₹100</div>
+
+                    </div>
+                    <div class="addcart">
+                        <div class="add">ADD TO CART</div>
+                        <div class="heart">
+                            <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cart2">
+                    <img src="/whitesundal.jpg">
+                    <div class="sugar">whitesundal</div>
+                    <div class="rupees">
+                        <select id="kilogram">
+                            <option value="1kg">1kg</option>
+                            <option value="500gm">500gm</option>
+                            <option value="250gm">250gm</option>
+                        </select>
+                        <div>₹130</div>
+
+                    </div>
+                    <div class="addcart">
+                        <div class="add">ADD TO CART</div>
+                        <div class="heart">
+                            <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cart2">
+                    <img src="/greenpeas.jpg">
+                    <div class="sugar">pachapattani</div>
+                    <div class="rupees">
+                        <select id="kilogram">
+                            <option value="1kg">1kg</option>
+                            <option value="500gm">500gm</option>
+                            <option value="250gm">250gm</option>
+                        </select>
+                        <div>₹130</div>
+
+                    </div>
+                    <div class="addcart">
+                        <div class="add">ADD TO CART</div>
+                        <div class="heart">
+                            <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cart2">
+                    <img src="/vellaipattani.jpg">
+                    <div class="sugar">vellaipattani</div>
+                    <div class="rupees">
+                        <select id="kilogram">
+                            <option value="1kg">1kg</option>
+                            <option value="500gm">500gm</option>
+                            <option value="250gm">250gm</option>
+                        </select>
+                        <div>₹140</div>
+
+                    </div>
+                    <div class="addcart">
+                        <div class="add">ADD TO CART</div>
+                        <div class="heart">
+                            <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="cart2">
+                    <img src="/thataipayaru.jpg">
+                    <div class="sugar">thataipayaru</div>
+                    <div class="rupees">
+                        <select id="kilogram">
+                            <option value="1kg">1kg</option>
+                            <option value="500gm">500gm</option>
+                            <option value="250gm">250gm</option>
+                        </select>
+                        <div>₹110</div>
+
+                    </div>
+                    <div class="addcart">
+                        <div class="add">ADD TO CART</div>
+                        <div class="heart">
+                            <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <!-- <div class="product d-flex">
+
+            <div class="cart2">
+                <img src="/pachapayaru.jpg">
+                <div class="sugar">pachapayaru</div>
+                <div class="rupees">
+                    <select id="kilogram">
+                        <option value="1kg">1kg</option>
+                        <option value="500gm">500gm</option>
+                        <option value="250gm">250gm</option>
+                    </select>
+                    <div>₹100</div>
+
+                </div>
+                <div class="addcart">
+                    <div class="add">ADD TO CART</div>
+                    <div class="heart">
+                        <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="cart2">
+                <img src="/porikadalai.jpg">
+                <div class="sugar">porikadalai</div>
+                <div class="rupees">
+                    <select id="kilogram">
+                        <option value="1kg">1kg</option>
+                        <option value="500gm">500gm</option>
+                        <option value="250gm">250gm</option>
+                    </select>
+                    <div>₹110</div>
+
+                </div>
+                <div class="addcart">
+                    <div class="add">ADD TO CART</div>
+                    <div class="heart">
+                        <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="cart2">
+                <img src="/mochapayaru.jpg">
+                <div class="sugar">mochapayaru</div>
+                <div class="rupees">
+                    <select id="kilogram">
+                        <option value="1kg">1kg</option>
+                        <option value="500gm">500gm</option>
+                        <option value="250gm">250gm</option>
+                    </select>
+                    <div>₹120</div>
+
+                </div>
+                <div class="addcart">
+                    <div class="add">ADD TO CART</div>
+                    <div class="heart">
+                        <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="cart2">
+                <img src="/soya.png">
+                <div class="sugar">Soya</div>
+                <div class="rupees">
+                    <select id="kilogram">
+                        <option value="1kg">1kg</option>
+                        <option value="500gm">500gm</option>
+                        <option value="250gm">250gm</option>
+                    </select>
+                    <div>₹110</div>
+
+                </div>
+                <div class="addcart">
+                    <div class="add">ADD TO CART</div>
+                    <div class="heart">
+                        <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="cart2">
+                <img src="/gramdhal.jfif">
+                <div class="sugar">Gramdhal</div>
+                <div class="rupees">
+                    <select id="kilogram">
+                        <option value="1kg">1kg</option>
+                        <option value="500gm">500gm</option>
+                        <option value="250gm">250gm</option>
+                    </select>
+                    <div>₹100</div>
+
+                </div>
+                <div class="addcart">
+                    <div class="add">ADD TO CART</div>
+                    <div class="heart">
+                        <i class="fa-solid fa-heart">WISHLIST</i>
+
+
+                    </div>
+                </div>
+            </div>
+
+
+        </div> -->
+                <!-- </div> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
